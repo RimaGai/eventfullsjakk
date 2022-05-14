@@ -1,0 +1,39 @@
+body {
+background-color: black;
+}
+
+.logo {
+  width: 150px;
+  height:150px;
+ 
+}
+
+.branding{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -30px;
+}
+
+nav {
+ margin-top: -30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 120px;
+
+}
+
+li {
+   padding-right: 15px;
+   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+    color: #fff;
+}
+ h1 {
+   color: white;
+ }
