@@ -11,7 +11,7 @@ background-color: black;
 .branding{
   display: flex;
   flex-direction: row;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
 }
 
 nav {
@@ -33,7 +33,63 @@ li {
 a {
   text-decoration: none;
     color: #fff;
+    font-family: 'PT Serif', serif;
+    
 }
- h1 {
+ h1,h3 {
    color: white;
+   font-family: 'Lora', serif;
+ }
+
+ h1{
+   font-size: 45px;
+ }
+
+ .description {
+   text-align: center;
+   line-height: 35px;
+   display: flex;
+  margin-left:30px;
+  margin-right:30px;
+  gap: 30px;
+  margin-top:70px;
+  background-color:#181717;
+ }
+ .column{
+   flex: 50%;  
+ }
+
+ .companies-description {
+   margin-left: 30px;
+   margin-top: 40px;
+ }
+ p {
+   font-size: 17px;
+   color:white;
+   font-family: 'PT Serif', serif;
+   
+ }
+ #contact {
+   color:white;
+ }
+ @media screen and (max-width:482px) {
+   ul {
+     margin-left: -25px;
+   }
+   .description{
+     flex-direction: column;
+   }
+   .companies-description{
+     order:1;
+   }
+   .chess-board {
+     order:2;
+   }
+   .chess-board img {
+      width:300px;
+     height:200px
+   }
+   .column{
+     float: left;
+   }
  }
