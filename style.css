@@ -81,6 +81,10 @@ a {
    }
    .companies-description{
      order:1;
+     margin-right: 17px;
+   }
+   p {
+      line-height:27px;
    }
    .chess-board {
      order:2;
