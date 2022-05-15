@@ -121,6 +121,10 @@ a {
    .chess-board {
      order:2;
    }
+   .teambuilding, .chess-multiple, .chess-tournament, .lecture {
+     margin-left: 30px;
+   }
+
   img {
       width:285px;
      height:200px;
@@ -130,7 +134,7 @@ a {
    }
    .activities p {
      margin-left: 3px;
-     margin-right: 10px;
+     margin-right: 18px;
    }
    .activities img {
      margin-top:10px;
