@@ -71,15 +71,13 @@ a {
    color:white;
    font-family: 'PT Serif', serif;
    line-height: 35px;
-   
- }
+   }
 
  .activities {
   display: flex;
   margin-top:40px;
+}
 
-
- }
 .activities p {
   max-width:500px;
   margin-left: 65px;
@@ -93,7 +91,7 @@ a {
   margin-left: 40px;
 }
 .members{
-  display: flex;
+   display: flex;
    margin-right:30px;
    margin-left:30px;
    margin-bottom: 100px;
@@ -127,7 +125,7 @@ a {
    ul {
      margin-left: -25px;
    }
-   .description, .activities{
+   .description, .activities, .members{
      flex-direction: column;
    }
    .companies-description{
